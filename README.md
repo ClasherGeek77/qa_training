@@ -1,4 +1,4 @@
-# UNI Git Mentorship Tutorial
+# Git Mentorship Tutorial
 A collaborative repository used to practice foundational Git workflows, including branching, merging, and conflict resolution.
 
 ## Participants
