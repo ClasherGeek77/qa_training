@@ -1,4 +1,4 @@
-# QA_API_BATCH2 🎓
+# UNI QA Bootcamp API Automation (Batch 2) 🎓
 
 [![Training Material](https://img.shields.io/badge/Status-Educational-success?logo=github)]()
 [![API Testing](https://img.shields.io/badge/Focus-API%20QA-blue)]()
