@@ -1,4 +1,4 @@
-# UNI QA Bootcamp Web Automation (Batch 2) 🎓
+# QA Bootcamp Web Automation (Batch 2) 🎓
 
 [![Training Material](https://img.shields.io/badge/Status-Educational-success?logo=github)]()
 [![Web UI Testing](https://img.shields.io/badge/Focus-Web%20UI%20QA-blue)]()
