@@ -50,7 +50,7 @@ the pattern worth copying: the feature file says what, the step file glues, the 
 
 | symptom | cause | fix |
 | --- | --- | --- |
-| schema validation fails | the response is missing a required field. the local clone https://github.com/ClasherGeek77/reqresin_clone leaves out `support` on the list endpoint (checked), and this schema requires it | keep `baseUrl` on `https://reqres.in`, or remove `"support"` from the `required` list in `Test Cases/pages/users/assert get list users` |
+| schema validation fails | the response is missing a required field. both https://reqres.in and the local clone https://github.com/ClasherGeek77/reqresin_clone send `support` on the list endpoint, so a missing field means another server answered | check `baseUrl`, or remove the field from the `required` list in `Test Cases/pages/users/assert get list users` |
 | connection error or HTTP 401/403 | no internet, or the public API started to require a key or blocks the caller | check `curl https://reqres.in/api/users?page=2`; use the local clone with the fix above |
 | Studio cannot open the project | version mismatch, or Studio not signed in | use Studio 7.9.1, sign in |
 | project does not load | you opened a subfolder instead of the project file | open `QA_API_BATCH2.prj` |
