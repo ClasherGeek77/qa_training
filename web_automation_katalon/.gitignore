@@ -1,0 +1,24 @@
+# Katalon Studio
+/bin/
+/Libs/
+/Reports/
+/output/
+/build/
+/.settings/
+/.classpath
+/.project
+/.cache/
+/settings/internal/
+console.properties
+*.log
+
+# Gradle
+.gradle/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
